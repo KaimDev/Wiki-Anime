@@ -17,7 +17,7 @@ async function aniApi() {
         const resp = await fetch(`https://api.aniapi.com/v1/anime?title=${word.value}`, {
             method: 'GET',
             headers: {
-              'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE1OTgiLCJuYmYiOjE2NDk4Nzg4ODksImV4cCI6MTY1MjQ3MDg4OSwiaWF0IjoxNjQ5ODc4ODg5fQ.BkgIIjmQPN8xeI-clhC8zQPjXPQi4M1tBleHAjDGj6k',
+              'Authorization': 'use api key from aniapi.com',
               'Content-Type': 'application/json',
               'Accept': 'application/json'
             }
