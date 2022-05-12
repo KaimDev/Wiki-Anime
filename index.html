@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css">
+    <title>Anime Wiki | Johan P.</title>
+</head>
+<body>
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Wiki Anime</a>
+          <input id="word" name="busqueda" class="form-control me-sm-2 palabra" type="text" placeholder="Buscar Anime">
+          <button class="btn btn-secondary my-2 my-sm-0" name="boton" onclick="aniApi()">Buscar</button>
+      </div>
+    </div>
+  </nav>
+  
+<!-- Container list -->
+    <div id="Card-Main" class="caja" hidden>
+      <div class="card mb-3">
+        <h3 id="titulo" class="card-header"></h3> 
+        <img id="portada" src="" alt="">
+        <div class="card-body">
+          <p id="desc" class="card-text"></p>
+        </div>
+      </div>
+    </div>
+
+
+ 
+     <!-- <div class="container">
+       <h1>Buscar Anime</h1>
+       <form action="" name="formulario" method="get">
+           <input id="word" type="text" name="busqueda" maxlength="30"  placeholder="Ingrese el nombre del anime" required>
+           <br>
+           <button type="button" name="boton" onclick="aniApi()">Buscar</button>
+       </form>
+   </div> -->
+   
+     
+<script src="./index.js"></script>
+</body>
+</html>
