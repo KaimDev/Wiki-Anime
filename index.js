@@ -18,7 +18,7 @@ async function aniApi() {
             method: 'GET',
             headers: {
                 //KEY
-              'Authorization': 'use api key from aniapi.com',
+              'Authorization': 'use api key from https://aniapi.com/',
               'Content-Type': 'application/json',
               'Accept': 'application/json'
             }
